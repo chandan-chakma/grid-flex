@@ -9,6 +9,7 @@ img{
     display: flex;
     /* grid-template-columns: repeat(3, 1fr); */
     gap: 5px;
+    margin-top: 10px;
 }
 .photo > div{
     flex: 1;
@@ -31,7 +32,16 @@ img{
 }
 .galary{
     display: flex;
-}
-.galary img{
+    margin-top: 10px;
+    gap: 5px;
     height: 400px;
+}
+.galary > div{
+    flex:1;
+}
+
+.lion{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
 }
